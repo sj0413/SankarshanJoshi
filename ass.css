@@ -1,0 +1,163 @@
+body{
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.web{
+    width: 100 vw;
+    height: 70 vw;
+    background-color: black; 
+    margin: 0 vw;
+}
+.class{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    height: 120px;
+    display: grid;
+    grid: auto  / 80% 5% 5% 5%;
+    background-color: black;
+    padding-top : 1vw;
+    padding-bottom: 1vw; 
+}
+
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 100%;
+    margin-top: 8%;
+    margin-left: -8%;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+
+}
+.about{
+    color: white;
+    margin: auto;
+}
+
+.con{
+    color: white;
+    margin: auto;
+}
+
+.blog{
+    color: white;
+    margin: auto;
+}
+
+.content{
+    display: grid;
+    grid: 29vw 29vw / 20% 20% 20% 20% 20%;
+
+}
+.assigmnent{
+width: 30%;
+display: grid;
+grid: auto / auto ;
+    
+}
+
+.assignment img{
+    width:60vw;
+    margin-left: 20vw;
+}
+
+.about:hover{
+    font-weight: bold;
+}
+
+.blog:hover{
+    font-weight: bold;
+}
+
+.con:hover{
+    font-weight: bold;
+}
+
+.title:hover{
+    color:grey;
+}
+
+
+@media only screen and (max-width:480px){
+
+    body{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    
+    .web{
+        width: 100 vw;
+        height: 70 vw;
+        background-color: black; 
+        margin: 0 vw;
+    }
+    .class{
+        background-color: black;
+        color: white;
+    }
+    
+    .header{
+        height: 120px;
+        display: grid;
+        grid: auto  / 80% 5% 5% 5%;
+        background-color: black;
+        padding-top : 1vw;
+        padding-bottom: 1vw; 
+    }
+    
+    .logo{
+        width: 50%;
+    }
+    .logo img{
+        width: 100%;
+        margin-top: 9%;
+        margin-left: 3%;
+        margin-top: 11%;
+    
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    
+    }
+    .about{
+        color: white;
+        margin: auto;
+        font-size:3vw;
+        margin-left:-17vw;
+        margin-top:6vw;
+    }
+    
+    .con{
+        color: white;
+        margin: auto;
+        font-size:3vw;
+        margin-left:-11vw;
+        margin-top:6vw;
+        
+    }
+    
+    .blog{
+        color: white;
+        margin: auto;
+        font-size:3vw;
+        margin-left:-3vw;
+        margin-top:6vw;
+        
+    }
+    
+    .content{
+        display: grid;
+        grid: 29vw  / 20%;
+    }
+    
+ 
+}

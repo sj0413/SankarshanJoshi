@@ -1,0 +1,291 @@
+body{
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.web{
+    width: 100 vw;
+    height: 70 vw;
+    background-color: black; 
+    margin: 0 vw;
+}
+.class{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    height: 120px;
+    display: grid;
+    grid: auto  / 80% 5% 5% 5%;
+    background-color: black;
+    padding-top : 1vw;
+    padding-bottom: 1vw; 
+}
+
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 100%;
+    margin-top: 8%;
+    margin-left: -8%;
+
+}
+
+.about{
+    color: white;
+    margin: auto;
+}
+
+.con{
+    color: white;
+    margin: auto;
+}
+
+.blog{
+    color: white;
+    margin: auto;
+}
+
+.content{
+    display: grid;
+    grid: 29vw 29vw / 20% 20% 20% 20% 20%;
+
+}
+
+.one{
+    grid-area: 1/1;
+}
+.one img{
+    width:100%;
+}
+
+.one .onetext {
+    position: absolute;
+   
+    margin-top:-6vw;
+    margin-left: 14vw;
+    font-size: 3vw;
+   
+    text-align: right;
+    transform: rotate(-90deg);
+}
+
+.two{
+    grid-area: 1/2;
+
+}
+.two img{
+    width:100%;
+}
+.two .bulldog {
+    position: absolute;
+   
+    margin-top:15.5vw;
+    margin-left: 8vw;
+    font-size: 3vw;
+   
+    text-align: right;
+    transform: rotate(-90deg);
+}
+.three{
+    grid-area: 1/3;
+
+}
+.three img{
+    width:100%;
+}
+.four .kannada{
+    position: absolute;
+   
+    margin-top:12.5vw;
+    margin-left: 4.5vw;
+    font-size: 3vw;
+   
+    text-align: right;
+    transform: rotate(-90deg);
+}
+
+.four{
+    grid-area: 1/4;
+}
+.four img{
+    width:100%;
+}
+
+.five{
+    grid-area: 1/5;
+}
+.five img{
+    width:100%;
+}
+
+.six{
+    grid-area: 2/1;
+    margin-top: -7%;
+}
+.six img{
+    width:100%;
+}
+.six .contemp{
+    position: absolute;
+   
+    margin-top:12.5vw;
+    margin-left: 4.5vw;
+    font-size: 3vw;
+   
+    text-align: right;
+    transform: rotate(-90deg);
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.seven{
+    grid-area: 2/2;
+    margin-top: -7%;
+}
+.seven img{
+    width:100%;
+}
+
+.eight{
+    grid-area: 2/3;
+    margin-top: -7%;
+}
+.eight img{
+    width:100%;
+}
+.eight .dive{
+    position: absolute;
+   
+    margin-top:22vw;
+    margin-left: 14.5vw;
+    font-size: 3vw;
+   
+    text-align: right;
+    transform: rotate(-90deg);
+}
+
+
+
+.nine{
+    grid-area: 2/4;
+    margin-top: -7%;
+}
+.nine img{
+    width:100%;
+}
+
+.ten{
+    grid-area: 2/5;
+    margin-top: -7%;
+}
+.ten img{
+    width:100%;
+}
+
+.about:hover{
+    font-weight: bold;
+}
+
+.blog:hover{
+    font-weight: bold;
+}
+
+.con:hover{
+    font-weight: bold;
+}
+
+.title:hover{
+    color:grey;
+}
+
+
+@media only screen and (max-width:480px){
+
+    body{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    
+    .web{
+        width: 100 vw;
+        height: 70 vw;
+        background-color: black; 
+        margin: 0 vw;
+    }
+    .class{
+        background-color: black;
+        color: white;
+    }
+    
+    .header{
+        height: 120px;
+        display: grid;
+        grid: auto  / 80% 5% 5% 5%;
+        background-color: black;
+        padding-top : 1vw;
+        padding-bottom: 1vw; 
+    }
+    
+    .logo{
+        width: 50%;
+    }
+    .logo img{
+        width: 100%;
+        margin-top: 9%;
+        margin-left: 3%;
+        margin-top: 11%;
+    
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    
+    }
+    .about{
+        color: white;
+        margin: auto;
+        font-size:3vw;
+        margin-left:-17vw;
+        margin-top:6vw;
+    }
+    
+    .con{
+        color: white;
+        margin: auto;
+        font-size:3vw;
+        margin-left:-11vw;
+        margin-top:6vw;
+        
+    }
+    
+    .blog{
+        color: white;
+        margin: auto;
+        font-size:3vw;
+        margin-left:-3vw;
+        margin-top:6vw;
+        
+    }
+    
+    .content{
+        display: grid;
+        grid: 29vw  / 20%;
+    }
+    
+ 
+}
+
+    
+    
+
